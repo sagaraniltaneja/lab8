@@ -1,5 +1,4 @@
 name: Workflow Commands
-
 on:
     workflow_dispatch:
     push:
@@ -37,3 +36,4 @@ jobs:
 
       - name: Create a Job Summary as "Exploring Workflow Commands :thumbsup:"
         run: echo "Expoloring Workflow Commands :thumbsup:" >> $GITHUB_STEP_SUMMARY
+
